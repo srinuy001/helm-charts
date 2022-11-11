@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  hello:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-11-11T11:28:20.014493146+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 02ad305b8dbbbae2c1b79244050f9efcdd59ecece3a10dcd8e3957e1233e3e9d
+    name: hello
+    type: application
+    urls:
+    - https://srinuy001.github.io/helm-charts/hello-0.1.0.tgz
+    version: 0.1.0
   my-nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-11T11:09:05.430965712+05:30"
+    created: "2022-11-11T11:28:20.015297615+05:30"
     description: A Helm chart for Kubernetes
     digest: 792a762d355f978f2fddd63a31a8b4a6e4dfccc3685f8d785b755fa82972d5df
     name: my-nginx
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://srinuy001.github.io/helm-charts/my-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-11T11:09:05.429175051+05:30"
+generated: "2022-11-11T11:28:20.013333422+05:30"
